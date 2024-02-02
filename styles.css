@@ -1,12 +1,18 @@
 body {
 	margin: 0px;
+	overflow: hidden;
 }
 
 .wrapper {
 	display: grid;
-	width: 98%;
-	height: 98%;
+	width: 100%;
+	height: 100%;
 	grid-template-areas: "main";
+}
+
+h1 {
+	font-size: 2vw;
+	text-align: center;
 }
 
 main {
